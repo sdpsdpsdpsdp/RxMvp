@@ -1,0 +1,37 @@
+ext {
+    android = [
+            compileSdkVersion   : 26,
+            buildToolsVersion   : '26.0.2',
+            applicationId       : 'com.laisontech.rxmvp',
+            minSdkVersion       : 17,
+            targetSdkVersion    : 26,
+            versionCode         : 1,
+            versionName         : 'v 1.1.0',
+            defaultPublishConfig: 'release',
+            publishNonDefault   : true
+    ]
+    dependencies = [
+            "appcompat-v7"          : 'com.android.support:appcompat-v7:26.1.0',
+            "support-design"        : 'com.android.support:design:+',
+
+            "junit"                 : 'junit:junit:4.12',
+            "gson"                  : 'com.google.code.gson:gson:2.8.0',
+            "constraint-layout"     : 'com.android.support.constraint:constraint-layout:1.0.2',
+            "converter-gson"        : 'com.squareup.retrofit2:converter-gson:2.2.0',
+
+            "retrofit"              : 'com.squareup.retrofit2:retrofit:2.2.0',
+            "rxandroid"             : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            "rxjava"                : 'io.reactivex.rxjava2:rxjava:2.0.1',
+            "adapter-rxjava"        : 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0',
+            "rxlifecycle"           : "com.trello.rxlifecycle2:rxlifecycle:2.0.1",
+            "rxlifecycle-android"   : "com.trello.rxlifecycle2:rxlifecycle-android:2.0.1",
+            "rxlifecycle-components": "com.trello.rxlifecycle2:rxlifecycle-components:2.0.1",
+            "rxpermissions"         : "com.tbruyelle.rxpermissions2:rxpermissions:0.9.3@aar",
+            "butterknife"           : "com.jakewharton:butterknife:8.4.0",
+            "butterknife-compiler"  : "com.jakewharton:butterknife-compiler:8.4.0",
+            "eventbus"              : 'org.greenrobot:eventbus:3.0.0',
+            "recyclerView"          : 'com.android.support:recyclerview-v7:26.1.0',
+            "xrecyclerview"         : "com.github.limedroid:ARecyclerView:v1.1.5",
+            "glide"                 : "com.github.bumptech.glide:glide:3.7.0",
+    ]
+}
